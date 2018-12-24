@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				A3D0590C21D07B51000E1DA9 /* AppDelegate.swift */,
-				A3D0590E21D07B51000E1DA9 /* art.scnassets */,
 				A3D0591021D07B51000E1DA9 /* ViewController.swift */,
 				A3D0591221D07B51000E1DA9 /* Main.storyboard */,
 				A3D0591521D07B53000E1DA9 /* Assets.xcassets */,
 				A3D0591721D07B53000E1DA9 /* LaunchScreen.storyboard */,
 				A3D0591A21D07B53000E1DA9 /* Info.plist */,
+				A3D0590E21D07B51000E1DA9 /* art.scnassets */,
 			);
 			path = ARZoo;
 			sourceTree = "<group>";
