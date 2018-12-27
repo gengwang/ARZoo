@@ -24,17 +24,16 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDele
     
     @IBOutlet var sceneView: ARSCNView!
     
+    // MARK: - UI Elements
+    
+    var focusSquare = FocusSquare()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupScene()
         setupGestureRecognizers()
-        
-        // Create a new scene
-        //        let scene = SCNScene(named: "art.scnassets/dice/box6.obj")!
-        
-        // Set the scene to the view
-        //        sceneView.scene = scene
     }
     fileprivate func setupScene() {
         // Set the view's delegate
@@ -283,8 +282,3 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDele
     }
 }
 
-extension matrix_float4x4 {
-    func position() -> SCNVector3 {
-        return SCNVector3(columns.3.x, columns.3.y, columns.3.z)
-    }
-}
