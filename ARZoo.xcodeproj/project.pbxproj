@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97D7C01A21F248420065ACAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DEED5B21D5893300381D74 /* Assets.xcassets */; };
 		A325795D21D5540800DB5980 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A325795C21D5540800DB5980 /* FocusSquare.swift */; };
 		A325796021D5546B00DB5980 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A325795F21D5546B00DB5980 /* FocusSquareSegment.swift */; };
 		A325796321D5552C00DB5980 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A325796221D5552C00DB5980 /* Utilities.swift */; };
@@ -24,7 +25,6 @@
 		A3DEED5521D5888900381D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEED5321D5888900381D74 /* AppDelegate.swift */; };
 		A3DEED5921D588BC00381D74 /* VirtualObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEED5721D588BC00381D74 /* VirtualObjectSelection.swift */; };
 		A3DEED5A21D588BC00381D74 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEED5821D588BC00381D74 /* StatusViewController.swift */; };
-		A3DEED5C21D5893300381D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DEED5B21D5893300381D74 /* Assets.xcassets */; };
 		A3DEED5E21D5895900381D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DEED5D21D5895900381D74 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -208,7 +208,7 @@
 			files = (
 				A3D0590F21D07B51000E1DA9 /* Models.scnassets in Resources */,
 				A3D0591921D07B53000E1DA9 /* LaunchScreen.storyboard in Resources */,
-				A3DEED5C21D5893300381D74 /* Assets.xcassets in Resources */,
+				97D7C01A21F248420065ACAE /* Assets.xcassets in Resources */,
 				A3DEED5E21D5895900381D74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,13 +373,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7J8S899PZ;
+				DEVELOPMENT_TEAM = Z38XS569C2;
 				INFOPLIST_FILE = ARZoo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maohao.ios.ARZoo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmm.atrium-ar.ARZoo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,13 +391,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7J8S899PZ;
+				DEVELOPMENT_TEAM = Z38XS569C2;
 				INFOPLIST_FILE = ARZoo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maohao.ios.ARZoo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmm.atrium-ar.ARZoo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
